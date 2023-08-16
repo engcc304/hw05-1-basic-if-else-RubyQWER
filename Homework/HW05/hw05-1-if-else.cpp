@@ -11,3 +11,36 @@
     Output:
         Result: D C B A
 */
+#include <stdio.h>
+
+    int main () {
+        char string1 [50], string2 [50], string3 [50], string4 [50] ;
+
+        int a = 0, b = 1, c = 2, d = 3, e = 4 ;
+        //รับค่าตัวอักษร
+        printf( "Enter character :" ) ;
+       scanf("%s %s %s %s", string1, string2, string3, string4 ) ;
+        //แสดงผลย้อนกลับ
+        if(e > d) {
+            printf("Output : %s",string4) ;
+
+            if(e > c) {
+                printf(" %s",string3) ;
+
+                if(e > b) {
+                    printf(" %s",string2) ;
+
+                    if(e > a ) {
+                        printf(" %s",string1) ;
+
+                    }
+
+                }
+            }
+        } //end if
+        else {
+            printf("Error") ;
+        } //end else
+       
+    return 0;
+}

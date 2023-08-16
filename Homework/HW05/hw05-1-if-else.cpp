@@ -19,28 +19,28 @@
         int a = 0, b = 1, c = 2, d = 3, e = 4 ;
         //รับค่าตัวอักษร
         printf( "Enter character :" ) ;
-       scanf("%s %s %s %s", string1, string2, string3, string4 ) ;
-        //แสดงผลย้อนกลับ
-        if(e > d) {
-            printf("Output : %s",string4) ;
+        scanf("%s %s %s %s", string1, string2, string3, string4 ) ;
+            //แสดงผลย้อนกลับ
+            if(e > d) {
 
-            if(e > c) {
-                printf(" %s",string3) ;
+                printf("Output : %s",string4);
+                if(e > c) {
 
-                if(e > b) {
-                    printf(" %s",string2) ;
+                    printf(" %s",string3);
+                    if(e > b) {
 
-                    if(e > a ) {
-                        printf(" %s",string1) ;
+                        printf(" %s",string2);
+                        if(e > a ) {
+                            printf(" %s",string1);
+
+                        }
 
                     }
-
                 }
-            }
-        } //end if
-        else {
-            printf("Error") ;
-        } //end else
+            } //end if
+            else {
+                printf("Error");
+            } //end else
        
     return 0;
 }

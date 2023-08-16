@@ -23,7 +23,7 @@
             //แสดงผลย้อนกลับ
             if(e > d) {
 
-                printf("Output : %s",string4);
+                printf("Result : %s",string4);
                 if(e > c) {
 
                     printf(" %s",string3);
